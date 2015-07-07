@@ -106,6 +106,11 @@ module.exports=(function()
 		progression	: 0,
 		value 		: 0,
 		decoration	: { left : '', right : '' },
+		reset : function()
+		{
+			this.progression = 0;
+			this.value = 0;
+		},
 		progress 	: function(value)
 		{
 			this.progression 	= (value||this.progression+this.step);
