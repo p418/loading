@@ -1,5 +1,5 @@
 {
-  "name": "loading",
+  "name": "cli-loading",
   "version": "1.0.0",
   "description": "CLI Progress bar and spinner",
   "main": "index.js",
